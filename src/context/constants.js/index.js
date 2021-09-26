@@ -1,0 +1,9 @@
+export const GET_ALL_MOVIES = 'GET_ALL_MOVIES';
+export const GET_ALL_MOVIES_ERROR = 'GET_ALL_MOVIES_ERROR';
+
+export const GET_MOVIE_DETAIL = 'GET_MOVIE_DETAIL';
+export const GET_MOVIE_ERROR = 'GET_MOVIE_DETAIL';
+// export const GET_ALL_MOVIES = 'GET_ALL_MOVIES';
+
+export const GET_MOVIE_CHARACTER = 'GET_MOVIE_CHARACTER';
+export const SORT_DATA = 'SORT DATA';

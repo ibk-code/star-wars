@@ -1,0 +1,23 @@
+.header-wrapper{
+    height: 500px;
+    width: 100%;
+    background: #000000;
+    position: relative;
+
+    #tsparticles{
+        height: 450px;
+    }
+
+    .select-wrapper{
+        position: absolute;
+        top: 2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #state{
+            width: 400px;
+        }
+    }
+}
