@@ -1,0 +1,27 @@
+.fallback-img{
+    height: 100px;
+    margin-top: 2rem;
+}
+
+.crawl-content{
+    margin-top: 1rem;
+    color: $primary-yellow;
+    animation: slide 20s linear infinite;
+    overflow: hidden;
+
+    h1,span{
+        display: block;
+        text-align: center;
+        padding: 0 1rem;
+    }
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}

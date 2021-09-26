@@ -1,0 +1,19 @@
+// import abstract folder
+@import "./abstracts/variable";
+
+// import base folder
+@import "./base/base";
+@import "./base/typography";
+
+// import components folder
+@import "./components/skiptocontent";
+@import "./components/crawler";
+@import "./components/tablewrapper";
+
+//import Layout Folder
+@import "./layout/header";
+@import "./layout/main";
+
+// import from utils folder
+
+// import pages folder

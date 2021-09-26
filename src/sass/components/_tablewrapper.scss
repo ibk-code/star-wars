@@ -1,0 +1,41 @@
+.table-wrapper{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+
+        thead,tfoot{
+            tr {
+                th{
+                    text-align: left;
+                    border-top: 2px solid #dee2e6;
+                    border-bottom: 2px solid #dee2e6;
+                    padding: 1rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        tbody{
+            tr{
+                td{
+                    text-align: left;
+                    border-bottom: 2px solid #dee2e6;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+
+    .empty-state{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        display: block;
+        text-align: center;
+    }
+}
